@@ -1,0 +1,124 @@
+/*fondo*/
+body{
+    background-color: hsl(203, 100%, 69%);
+    font-family: Arial, sans-serif;
+    background-image: url('Imagenes/Umgfondo.PNG');
+    background-size: 60%;     
+    background-repeat: no-repeat;
+    background-position: center ; 
+}
+/*cuadro principal*/
+
+header{
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px auto;
+    width: 70%;
+    
+}
+/*cuadro indice*/
+
+#In{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 10%;
+}
+
+
+/*cuadritos de las paginas*/
+
+.article{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 72%;
+    line-height: 0.5; 
+    padding-bottom: 20px;
+    transition: background 0.3s linear;
+}
+
+/*cambiar el color cuando pase el mouse*/
+
+.article:hover{
+    background: rgb(255, 97, 97);
+}
+
+/* pie de pagina */
+
+footer{
+    background: black;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    margin: 50px auto;
+    width: 73%;
+}
+
+/*Boton Regresar*/
+
+#Regre {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 0px 0 0px 13%; 
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+/*Temas*/
+
+.CuadroPag1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 72%;
+    min-height: 100vh;
+}
+
+.CuadroPag1 p {
+    font-size: 1.5em; 
+    line-height: 1.4;
+}
+
+/*Quien soy*/
+
+.CuadroPag2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 72%;
+    min-height: 100vh;
+}
+
+.CuadroPag2 p {
+    font-size: 1.5em; 
+    line-height: 1.4;
+}
+
+/*Opinión*/
+
+.CuadroPag3{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 72%;
+    min-height: 70vh;
+}
+.CuadroPag3 p {
+    font-size: 1.5em; 
+    line-height: 1.4;
+}
